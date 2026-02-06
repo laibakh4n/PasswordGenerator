@@ -34,55 +34,9 @@ PasswordGenerator/
 └── README.md
 
 
+## ▶️ How to Run the Project Locally
 
-## How to Run the Project Locally
-
-### Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/your-username/PasswordGenerator.git
-cd PasswordGenerator
-
-### Install dependencies
-```bash
-pip install -r requirements.txt
-
-
-
-### Password Strength Logic
-
-Password strength is evaluated based on:
-
-- Length of the password
-
-- Presence of uppercase characters
-
-- Presence of numbers
-
-- Presence of special symbols
-
-Additionally, entropy (in bits) is calculated to estimate password randomness and security level.
-
-
-### Security Considerations
-
-- Passwords are generated locally
-
-- No passwords are saved, stored, or transmitted
-
-- Safe for learning and demonstration purposes
-
-### Future Enhancements
-
-- Dark / Light theme toggle
-
-- Password history (session-based)
-
-- One-click regenerate button
-
-- Deployment on Streamlit Cloud
-
-### Author
-
-__Laiba Khan__
-
-Python & Streamlit project developed to practice secure application development and UI design.
+cd PasswordGenerato

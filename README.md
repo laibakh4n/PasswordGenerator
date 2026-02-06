@@ -18,6 +18,8 @@ This project allows users to generate strong passwords with configurable options
 - Fully client-side (no passwords are stored or logged)
 
 
+----
+
 ## 🛠 Tech Stack
 
 - **Python**
@@ -33,8 +35,12 @@ Regression_Project/
 ├── requirements.txt
 └── README.md
 ```
+--- 
+
 
 ## ▶️ How to Run the Project Locally
+
+
 
 ### 1️⃣ Clone the repository
 
@@ -55,6 +61,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---- 
+
 ### 🧠 Password Strength Logic
 
 Password strength is evaluated based on:
@@ -69,6 +77,9 @@ Password strength is evaluated based on:
 
 Additionally, entropy (in bits) is calculated to estimate password randomness and security level.
 
+
+--- 
+
 ### 🔐 Security Considerations
 
 - Passwords are generated locally
@@ -76,6 +87,10 @@ Additionally, entropy (in bits) is calculated to estimate password randomness an
 - No passwords are saved, stored, or transmitted
 
 - Safe for learning and demonstration purposes
+
+
+-----
+
 
 ### 📌 Future Enhancements
 
@@ -87,10 +102,15 @@ Additionally, entropy (in bits) is calculated to estimate password randomness an
 
 - Deployment on Streamlit Cloud
 
+------
+
 ### 👩‍💻 Author
 
 __Laiba Khan__
 
+----
+
 ### ⭐ Support
 
 If you find this project useful, consider giving it a ⭐ on GitHub!
+
